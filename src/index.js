@@ -21,7 +21,7 @@ class AllOfHandler extends Handler {
         })
 
         return {
-            e: this.key + 'condition check failed ['+input+'] vs ['+ target+']',
+            e: this.key + ' fail ['+input+'] vs ['+ target+']',
             v: result
         }                
     }
@@ -38,7 +38,7 @@ class AnyOfHandler extends Handler {
         })
 
         return {
-            e: this.key + 'condition check failed ('+input+','+ target+')',
+            e: this.key + ' fail ['+input+'] vs ['+ target+']',
             v: result
         }                
     }
@@ -56,7 +56,7 @@ class NoneOfHandler extends Handler {
         })
 
         return {
-            e: this.key + 'condition check failed ('+input+','+ target+')',
+            e: this.key + ' fail ['+input+'] vs ['+ target+']',
             v: result
         }                
     }
