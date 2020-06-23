@@ -21,7 +21,7 @@ class AllOfHandler extends Handler {
         })
 
         return {
-            e: this.key + 'condition check failed ('+input+','+ target+')',
+            e: this.key + 'condition check failed ['+input+'] vs ['+ target+']',
             v: result
         }                
     }
