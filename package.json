@@ -22,7 +22,7 @@
     "dist",
     "src"
   ],
-  "author": "Maciej Grula <maciej.grula@gmail.com>",
+  "author": "Al Keicam <alkeicam@yahoo.com>",
   "license": "MIT",
   "unpkg": "dist/yp-filter.js",
   "dependencies": {},
